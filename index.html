@@ -219,6 +219,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .pcard:hover .ph img{transform:scale(1.06)}
 .pcard::after{content:"";position:absolute;left:0;right:0;bottom:0;height:60%;background:linear-gradient(180deg,rgba(18,33,8,0) 0%,rgba(18,33,8,.7) 100%);pointer-events:none}
 .pcard h3{position:relative;z-index:1;font-size:clamp(1.5rem,2.8vw,2.5rem);line-height:1;font-weight:400;text-wrap:balance}
+.ce .h2{max-width:52rem;margin-inline:auto;text-wrap:balance}
 .po .btns{display:flex;flex-wrap:wrap;gap:var(--s-3);margin-top:var(--s-6)}
 
 /* ---------- PRODUCTOS ---------- */
@@ -272,7 +273,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .in .peanut .circ{position:absolute;z-index:1;left:50%;top:50%;width:clamp(12.5rem,21.2vw,19rem);aspect-ratio:1;border-radius:50%;background:transparent;border:1px solid rgba(255,255,255,.85);transform:translate(-50%,-50%)}
 .in .peanut .nutw{position:absolute;left:50%;top:50%;width:clamp(17.5rem,36vw,32.5rem);aspect-ratio:1;transform:translate(-50%,-44%);pointer-events:none;z-index:2}
 .in .peanut .nut{width:100%;height:100%;max-width:none}
-.in .right{position:relative;z-index:1;display:flex;flex-direction:column;gap:var(--s-3);align-items:flex-end;padding-right:0}
+.in .right{position:relative;z-index:1;display:flex;flex-direction:column;gap:var(--s-3);align-items:flex-end;padding-right:var(--s-4)}
 .in .bx{position:relative;width:13rem;height:5.5rem;border:1px solid #fff;padding:var(--s-2) var(--s-3);display:flex;align-items:center;font-size:clamp(1rem,1.39vw,1.25rem);line-height:1.2;font-weight:300;text-transform:uppercase}
 .in .bx:nth-child(odd){border-radius:0 16px 0 16px}
 .in .bx:nth-child(even){border-radius:16px 0 16px 0}
@@ -356,7 +357,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
   .in .left{padding-left:0;order:2;align-items:center;text-align:center}
   .in .left p{max-width:35rem}
   .in .left .ln-wrap{display:none}
-  .in .right{order:1;flex-direction:row;align-items:stretch;justify-content:center;gap:var(--s-2)}
+  .in .right{order:1;flex-direction:row;align-items:stretch;justify-content:center;gap:var(--s-2);padding-right:0}
   .in .bx{width:auto;flex:1;max-width:15rem;height:auto;padding:var(--s-2) var(--s-2)}
   .in .bx + .bx::before,.in .right .conn,.in .sq{display:none}
 }
@@ -713,7 +714,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
       <div class="ph" data-reveal><img src="img/hern.jpg" alt="Vista nocturna de la planta en Hernando" loading="lazy"></div>
       <div class="txt">
         <div class="head" data-head>
-          <span class="tag">Región manicera</span>
+          <span class="tag">Región manisera</span>
           <h2 class="h2" data-split>Hernando, Capital Nacional del maní</h2>
         </div>
         <div class="stat"><span class="n">+ de <span data-count="400">400</span></span><span class="u">empleos<br>directos</span></div>
